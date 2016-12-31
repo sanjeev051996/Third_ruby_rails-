@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  get '/widgets/ivr'=> 'widgets#ivr'
-  get '/widgets/tree'=>'widgets#tree'
-  post '/widgets/tre'=>'widgets#tre'
+  get '/widgets/ivr/'=> 'widgets#ivr'
+  get '/widgets/tree/'=>'widgets#tree'
+  post '/widgets/tre/'=>'widgets#tre'
 root 'welcome#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
