@@ -10,7 +10,7 @@ def ivr
     $IVR_MESSAGE1="My name is sanjeev & I wish u good morning"
     r = Response.new()
 
-    getdigits_action_url = "https://morning-peak-65848.herokuapp.com/widgets/tree"
+    getdigits_action_url = "https://morning-peak-65848.herokuapp.com/widgets/tre"
     params = {
         'action' => getdigits_action_url,
         'method' => 'POST',
