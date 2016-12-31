@@ -10,7 +10,7 @@ def ivr
     $IVR_MESSAGE1="My name is sanjeev & I wish u good morning"
     r = Response.new()
 
-    getdigits_action_url = "https://stark-bayou-68090.herokuapp.com/widgets/tree"
+    getdigits_action_url = "https://morning-peak-65848.herokuapp.com/widgets/tree"
     params = {
         'action' => getdigits_action_url,
         'method' => 'POST',
@@ -55,7 +55,7 @@ puts "sanjeev kumar yadav"
 @r = Response.new()
 
 if (@digit == "1")
-    getdigits_action_url = "https://stark-bayou-68090.herokuapp.com/widgets/tree"
+    getdigits_action_url = "https://morning-peak-65848.herokuapp.com/widgets/tree"
     params = {
         'action' => getdigits_action_url,
         'method' => 'GET',
